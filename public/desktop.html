@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shoppable Video Remote - Desktop View</title>
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="video-pause-overlay">
+            <h2 class="pause-message">Mobile Browsing: Playback Paused</h2>
+        </div>
+
+        <!-- Video insertion point -->
+        <div    
+            id="video" 
+            data-url="https://www.youtube.com/watch?v=aTTDIXaSwOI&feature=youtu.be&controls=true" 
+            ></div>
+
+        <!-- Video events -->
+        <span   
+            class="video-event" 
+            data-start="00:00:02" 
+            data-end="00:00:08" 
+            data-id="100319" 
+            data-designer="Saint Laurent" 
+            data-product="Black Runway Polka Dot Mesh Top" 
+            data-price="615" 
+            data-url="https://www.ssense.com/women/product/saint_laurent/black-runway-polka-dot-mesh-top/100319" 
+            data-img="https://static1.ssense.com/ssenseweb/image/upload/c_lpad,g_south,h_1086,w_724/c_scale,h_560/v173924162/41418F112003_1.jpg"></span>
+
+        <span   
+            class="video-event" 
+            data-start="00:00:01" 
+            data-end="00:00:07" 
+            data-id="95479" 
+            data-designer="Giuliano Fujiwara" 
+            data-product="Navy & Black Deconstructive Blazer" 
+            data-price="420" 
+            data-url="https://www.ssense.com/men/product/giuliano_fujiwara/navy-black-deconstructive-blazer/95479" 
+            data-img="https://static1.ssense.com/ssenseweb/image/upload/c_lpad,g_south,h_1086,w_724/c_scale,h_560/v2104986402/41549M028002_1.jpg"></span>
+
+        <span   
+            class="video-event" 
+            data-start="00:00:10" 
+            data-end="00:00:16" 
+            data-id="89362" 
+            data-designer="Chloé" 
+            data-product="Ivory & Navy Colorblocked Sailor Dress" 
+            data-price="315" 
+            data-url="https://www.ssense.com/women/product/chloe/ivory-navy-colorblocked-sailor-dress/89362" 
+            data-img="https://static1.ssense.com/ssenseweb/image/upload/c_lpad,g_south,h_1086,w_724/c_scale,h_560/v1629444857/41338F109002_1.jpg"></span>
+
+        <span   
+            class="video-event" 
+            data-start="00:00:14" 
+            data-end="00:00:18" 
+            data-id="102338" 
+            data-designer="Iris van Herpen" 
+            data-product="Pewter Cropped Embossed Leather Jacket" 
+            data-price="1905" 
+            data-url="https://www.ssense.com/women/product/iris_van_herpen/pewter-cropped-embossed-leather-jacket/102338" 
+            data-img="https://static1.ssense.com/ssenseweb/image/upload/c_lpad,g_south,h_1086,w_724/c_scale,h_560/v691878275/41509F097001_1.jpg"></span>
+
+        <span   
+            class="video-event" 
+            data-start="00:00:18" 
+            data-end="00:00:37" 
+            data-id="95479" 
+            data-designer="Giuliano Fujiwara" 
+            data-product="Navy & Black Deconstructive Blazer" 
+            data-price="420" 
+            data-url="https://www.ssense.com/men/product/giuliano_fujiwara/navy-black-deconstructive-blazer/95479" 
+            data-img="https://static1.ssense.com/ssenseweb/image/upload/c_lpad,g_south,h_1086,w_724/c_scale,h_560/v2104986402/41549M028002_1.jpg"></span>
+
+        <span   
+            class="video-event" 
+            data-start="00:00:18" 
+            data-end="00:00:40" 
+            data-id="100320" 
+            data-designer="Saint Laurent" 
+            data-product="Black Lambskin Blazer" 
+            data-price="420" 
+            data-url="https://www.ssense.com/women/product/saint_laurent/black-lambskin-blazer/100320" 
+            data-img="https://static2.ssense.com/ssenseweb/image/upload/c_lpad,g_south,h_1086,w_724/c_scale,h_560/v471098815/41418F099001_1.jpg"></span>
+
+
+        <span   
+            class="video-event" 
+            data-start="00:00:38" 
+            data-end="00:00:48" 
+            data-id="96201" 
+            data-designer="BLK DNM" 
+            data-product="Black Classic Blazer" 
+            data-price="182" 
+            data-url="https://www.ssense.com/men/product/blk_dnm/black-classic-blazer/96201" 
+            data-img="https://static2.ssense.com/ssenseweb/image/upload/c_lpad,g_south,h_1086,w_724/c_scale,h_560/v560421496/41350M028001_1.jpg"></span>
+
+        <span   
+            class="video-event" 
+            data-start="00:00:47" 
+            data-end="00:00:50" 
+            data-id="102338" 
+            data-designer="Iris van Herpen" 
+            data-product="Pewter Cropped Embossed Leather Jacket" 
+            data-price="1905" 
+            data-url="https://www.ssense.com/women/product/iris_van_herpen/pewter-cropped-embossed-leather-jacket/102338" 
+            data-img="https://static1.ssense.com/ssenseweb/image/upload/c_lpad,g_south,h_1086,w_724/c_scale,h_560/v691878275/41509F097001_1.jpg"></span>
+
+
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="http://popcornjs.org/code/dist/popcorn-complete.min.js"></script>
+        <script type="text/javascript" src="/js/desktop.js"></script>
+    </body>
+</html>
